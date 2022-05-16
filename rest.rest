@@ -2,6 +2,11 @@ POST http://localhost:8080/v1/auth/login
 Content-Type: application/json
 
 {
-    "email": "test@test.com",
-    "password": "123"
+    "email": "john@mail.lt",
+    "password": "john123"
 }
+
+###
+
+GET http://localhost:8080/v1/content
+Authorization: Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI1LCJpYXQiOjE2NTI2ODk2MDR9.2TGtvg4WGeCKvS8iBDBTdyCBv6cEX7pvzv5OGx1bG3U
